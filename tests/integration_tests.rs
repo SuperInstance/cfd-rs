@@ -1,6 +1,6 @@
 #[cfg(test)]
 mod tests {
-    use cfd_rs::*;
+    use cfd_sim::*;
 
     // === NAVIER-STOKES 1D ===
 
