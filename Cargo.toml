@@ -1,0 +1,11 @@
+[package]
+name = "cfd-rs"
+version = "0.1.0"
+edition = "2021"
+license = "MIT OR Apache-2.0"
+description = "Computational Fluid Dynamics in Rust — Navier-Stokes, Lattice Boltzmann D2Q9, Euler equations, vortex methods"
+repository = "https://github.com/SuperInstance/cfd-rs"
+
+[dependencies]
+nalgebra = { version = "0.33", features = ["serde-serialize"] }
+serde = { version = "1", features = ["derive"] }
